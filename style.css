@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.5);
+}
+
+.password-generator {
+    margin-top: 50px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+    margin-left: 5px;
+}
+
+#password-length {
+    width: 40px;
+    padding: 5px;
+    margin-left: 10px; /* Espacio entre la etiqueta y el campo de entrada */
+}
+
+/* HAY QUE SEGUIR POR AQUI */
