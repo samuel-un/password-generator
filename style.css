@@ -1,3 +1,7 @@
+h1 {
+    font-size: 40px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1e1e1e;
@@ -12,17 +16,22 @@ body {
 .container {
     text-align: center;
     background-color: #2e2e2e;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0.5);
 }
 
-.password-generator {
-    margin-top: 50px;
+.password-generator b {
+    margin: 10px;
+}
+
+.password-generator{
+    margin-top: 20px;
 }
 
 label {
-    margin-right: 20px;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .input-container {
@@ -39,4 +48,37 @@ label {
     margin-left: 10px; /* Espacio entre la etiqueta y el campo de entrada */
 }
 
-/* HAY QUE SEGUIR POR AQUI */
+.options{
+    margin: 20px 0;
+}
+
+button {
+    background-color: #ffaa00;
+    color: #000;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+#password-display {
+    background-color: #1a1a1a;
+    color:#ffcc00;
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+#copy-password {
+    margin-top: 10px;
+}
